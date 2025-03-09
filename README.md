@@ -108,11 +108,3 @@ Le système suggère des ajustements de prix basés sur plusieurs facteurs:
 - Les prix sont également ajustés en fonction de la saison touristique
 
 ---
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-
----
-
-Créé dans le cadre d'un projet d'apprentissage sur l'optimisation des revenus hôteliers et le yield management. 
