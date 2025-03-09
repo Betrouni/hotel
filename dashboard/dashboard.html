@@ -1,0 +1,99 @@
+
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tableau de Bord HotelSim</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f5f5f5;
+                }
+                header {
+                    background-color: #2c3e50;
+                    color: white;
+                    padding: 20px;
+                    text-align: center;
+                }
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                .chart-container {
+                    background-color: white;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                    margin-bottom: 30px;
+                    padding: 20px;
+                }
+                h2 {
+                    color: #2c3e50;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 10px;
+                }
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .footer {
+                    text-align: center;
+                    margin-top: 30px;
+                    padding: 20px;
+                    background-color: #2c3e50;
+                    color: white;
+                }
+                .timestamp {
+                    text-align: right;
+                    font-size: 0.8em;
+                    color: #7f8c8d;
+                    margin-top: 10px;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1>Tableau de Bord HotelSim - Le Petit Refuge</h1>
+            </header>
+            
+            <div class="container">
+                <div class="chart-container">
+                    <h2>Taux d'Occupation</h2>
+                    <img src="occupancy_chart.png" alt="Taux d'occupation">
+                    <p>Ce graphique montre l'évolution du taux d'occupation de l'hôtel au cours du temps, globalement et par type de chambre.</p>
+                </div>
+                
+                <div class="chart-container">
+                    <h2>Revenus et Occupation</h2>
+                    <img src="revenue_chart.png" alt="Revenus et occupation">
+                    <p>Ce graphique compare les revenus journaliers avec le taux d'occupation, montrant la corrélation entre ces deux indicateurs.</p>
+                </div>
+                
+                <div class="chart-container">
+                    <h2>Suggestions d'Ajustement des Prix</h2>
+                    <img src="price_suggestions_chart.png" alt="Suggestions de prix">
+                    <p>Ce graphique présente les suggestions d'ajustement des prix de base pour maximiser les revenus, basées sur l'analyse des données historiques.</p>
+                </div>
+                
+                <div class="chart-container">
+                    <h2>Distribution des Réservations</h2>
+                    <img src="room_distribution_chart.png" alt="Distribution des chambres">
+                    <p>Ce graphique montre la répartition des réservations par type de chambre, indiquant les préférences de la clientèle.</p>
+                </div>
+                
+                <div class="timestamp">
+                    Généré le: 09/03/2025 à 16:03
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>HotelSim - Simulateur de Gestion Hôtelière</p>
+            </div>
+        </body>
+        </html>
+        

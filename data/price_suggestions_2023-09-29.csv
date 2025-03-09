@@ -1,0 +1,4 @@
+room_type,current_base_price,suggested_adjustment_pct,suggested_new_base,reason
+standard,80,15.0,92,Fort taux d'occupation
+confort,120,15.0,138,Fort taux d'occupation
+suite,180,15.0,207,Fort taux d'occupation

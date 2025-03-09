@@ -1,0 +1,94 @@
+{
+  "hotel": {
+    "name": "Le Petit Refuge",
+    "room_types": {
+      "standard": {
+        "count": 5,
+        "capacity": 2
+      },
+      "confort": {
+        "count": 7,
+        "capacity": 3
+      },
+      "suite": {
+        "count": 3,
+        "capacity": 4
+      }
+    }
+  },
+  "pricing": {
+    "base_rates": {
+      "standard": 80,
+      "confort": 120,
+      "suite": 180
+    },
+    "occupancy_thresholds": [0.3, 0.5, 0.8, 0.9],
+    "price_multipliers": [0.8, 0.9, 1.1, 1.25],
+    "seasons": {
+      "high": [
+        {
+          "start": "06-15",
+          "end": "09-15"
+        },
+        {
+          "start": "12-15",
+          "end": "01-05"
+        }
+      ],
+      "medium": [
+        {
+          "start": "04-01",
+          "end": "06-14"
+        },
+        {
+          "start": "09-16",
+          "end": "10-31"
+        }
+      ],
+      "low": [
+        {
+          "start": "01-06",
+          "end": "03-31"
+        },
+        {
+          "start": "11-01",
+          "end": "12-14"
+        }
+      ]
+    }
+  },
+  "simulation": {
+    "start_date": "2023-08-01",
+    "days": 90,
+    "requests_per_day": 15,
+    "random_seed": 42
+  },
+  "data": {
+    "export_path": "./data/",
+    "format": "csv"
+  },
+  "weather": {
+    "api_key": "",
+    "location": "Paris,FR",
+    "impact_factors": {
+      "sunny": 1.2,
+      "cloudy": 1.0,
+      "rainy": 0.8,
+      "snowy": 0.7
+    }
+  },
+  "visualization": {
+    "charts": [
+      "occupancy_by_day",
+      "revenue_by_day",
+      "price_vs_occupancy",
+      "room_type_distribution"
+    ],
+    "dashboard_update_interval": 24
+  },
+  "notification": {
+    "low_occupancy_threshold": 0.4,
+    "email_recipients": [],
+    "notification_interval": 7
+  }
+} 

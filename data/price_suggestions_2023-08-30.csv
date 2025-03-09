@@ -1,0 +1,4 @@
+room_type,current_base_price,suggested_adjustment_pct,suggested_new_base,reason
+standard,80,-5.0,76,Taux d'occupation modéré
+confort,120,-5.0,114,Taux d'occupation modéré
+suite,180,-5.0,171,Taux d'occupation modéré
