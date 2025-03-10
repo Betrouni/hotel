@@ -60,7 +60,7 @@ pip install -r requirements.txt
 Pour lancer une simulation avec les paramètres par défaut :
 
 ```bash
-python main.py
+python run_simulation.py --dashboard
 ```
 
 ### Configuration
@@ -108,3 +108,7 @@ Le système suggère des ajustements de prix basés sur plusieurs facteurs:
 - Les prix sont également ajustés en fonction de la saison touristique
 
 ---
+![image](https://github.com/user-attachments/assets/b4fb7de3-f199-4044-99b5-f74cb5de2b90)
+
+![image](https://github.com/user-attachments/assets/669b056b-cdba-4684-bb57-280925e4a9d1)
+
